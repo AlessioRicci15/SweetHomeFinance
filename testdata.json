@@ -3,7 +3,23 @@
 		"firstName": "Alessio",
 		"lastName": "Ricci",
 		"profileImgPath": "https://miro.medium.com/fit/c/262/262/0*H3pvOMkgG_1Sce03",
-		"description": "Motivated writer",
+		"description": [{
+				"en": "English"
+			},
+			{
+				"es": "Espangiol"
+			},
+			{
+				"de": "Deutsch"
+			},
+			{
+				"it": "Italiano"
+			},
+			{
+				"fr": "France"
+			}
+
+		],
 		"socialmedia": [{
 				"media": "twitter",
 				"name": "15alessioricci"
@@ -15,8 +31,40 @@
 		]
 	}],
 	"articles": [{
-		"title": "This is a article",
-		"description": "Very important information",
+		"title": [{
+				"en": "English"
+			},
+			{
+				"es": "Espangiol"
+			},
+			{
+				"de": "Deutsch"
+			},
+			{
+				"it": "Italiano"
+			},
+			{
+				"fr": "France"
+			}
+
+		],
+		"description": [{
+				"en": "English"
+			},
+			{
+				"es": "Espangiol"
+			},
+			{
+				"de": "Deutsch"
+			},
+			{
+				"it": "Italiano"
+			},
+			{
+				"fr": "France"
+			}
+
+		],
 		"imgPath": "https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg",
 		"authorId": "1",
 		"translaterId": "0",
