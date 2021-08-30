@@ -1,4 +1,4 @@
-.navigation{
+nav{
     border: solid 3px;
     border-radius: 15px;
     border-color: gray;
@@ -16,5 +16,11 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: left;
         padding-left: 25px;
+        color: black;
+    }
+
+    .active{
+        font-weight: bold;
+        background-color: rgb(215, 215, 215);
     }
 }

@@ -1,7 +1,6 @@
-<div class="navigation">
-    <button>Dashboard</button>
-    <button>Articles</button>
-    <button>Authors</button>
-    <button>MoneyData</button>
-    <button>Links</button>
-</div>
+<nav>
+    <a routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}" routerLink="/dashboard"><button>Dashboard</button></a>
+    <a routerLinkActive="active" routerLink="/dashboard/articles"> <button>Articles</button> </a>
+    <a routerLinkActive="active" routerLink="/dashboard/authors"><button>Authors</button> </a>
+    <a routerLinkActive="active" routerLink="/dashboard/moneydata"><button>MoneyData</button> </a>
+</nav>

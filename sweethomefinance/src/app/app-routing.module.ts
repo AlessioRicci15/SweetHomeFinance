@@ -16,7 +16,7 @@ import { MoneydataComponent } from './moneydata/moneydata.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent, pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: 'dashboard', component: DashboardComponent, children: [
   { path: 'articles', component: ArticlesComponent, children: [
     { path: ':id', component: ArticleComponent, children: [
       { path: 'source', component: SourceComponent }
@@ -39,7 +39,7 @@ const routes: Routes = [
   { path: 'admin', component: AuthComponent, children: [
     { path: 'newstory', component: NewstoryComponent },
     { path: 'newauthor', component: NewauthorComponent }
-  ]},
+  ]},]},
 ];
 
 @NgModule({
