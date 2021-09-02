@@ -1,0 +1,40 @@
+footer {
+  position: absolute;
+  height: 15vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+
+  .language {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    .row {
+        display: flex;
+        flex-direction: row;
+      button {
+        height: 2vw;
+        width: 2vw;
+        border: solid 1px black;
+        background-color: rgb(200, 200, 200);
+      }
+    }
+  }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .col-4{
+        height: 7.5vh;
+        padding: 2.5vh;
+        text-align: center;
+        align-content: center;
+    }
+  a {
+    color: black;
+  }
+}
