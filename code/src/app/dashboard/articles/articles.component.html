@@ -1,1 +1,7 @@
-Articles
+<div *ngFor="let article of articles">
+    <button (Click)="openArticle(article)">
+        <img src="{{ article.imgPath }}">
+        <h1>{{ article.title[0].en }}</h1>
+        <p>{{ article.description[0].en }}</p>
+    </button>
+</div>

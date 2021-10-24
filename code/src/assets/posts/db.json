@@ -1,0 +1,118 @@
+[{
+  "articles" : [ {
+    "authorId" : "1",
+    "description" : [ {
+      "en" : "In der Zeitung stehen die neusten informationen"
+    }, {
+      "es" : "Espangiol"
+    }, {
+      "de" : "Deutsch"
+    }, {
+      "it" : "Italiano"
+    }, {
+      "fr" : "France"
+    } ],
+    "imgPath" : "https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg",
+    "links" : [ {
+      "link" : "www.amazon.com",
+      "title" : "Amazon"
+    } ],
+    "source" : [ {
+      "link" : "www.google.com",
+      "title" : "Google"
+    }, {
+      "link" : "www.microsoft.com",
+      "title" : "Microsoft"
+    } ],
+    "title" : [ {
+      "en" : "News"
+    }, {
+      "es" : "Espangiol"
+    }, {
+      "de" : "Deutsch"
+    }, {
+      "it" : "Italiano"
+    }, {
+      "fr" : "France"
+    } ],
+    "translaterId" : "0"
+  },{
+    "authorId": "1",
+    "description": [
+      {
+        "en": "Lecker zum essen"
+      },
+      {
+        "es": "Espangiol"
+      },
+      {
+        "de": "Deutsch"
+      },
+      {
+        "it": "Italiano"
+      },
+      {
+        "fr": "France"
+      }
+    ],
+    "imgPath": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-i-p/rez-edeka-pizza-prosciutto-rezept-i-p.jpg?imwidth=960&imdensity=1",
+    "links": [
+      {
+        "link": "www.amazon.com",
+        "title": "Amazon"
+      }
+    ],
+    "source": [
+      {
+        "link": "www.google.com",
+        "title": "Google"
+      },
+      {
+        "link": "www.microsoft.com",
+        "title": "Microsoft"
+      }
+    ],
+    "title": [
+      {
+        "en": "Pizza"
+      },
+      {
+        "es": "Espangiol"
+      },
+      {
+        "de": "Deutsch"
+      },
+      {
+        "it": "Italiano"
+      },
+      {
+        "fr": "France"
+      }
+    ],
+    "translaterId": "0"
+  } ],
+  "authors" : [ {
+    "description" : [ {
+      "en" : "English"
+    }, {
+      "es" : "Espangiol"
+    }, {
+      "de" : "Deutsch"
+    }, {
+      "it" : "Italiano"
+    }, {
+      "fr" : "France"
+    } ],
+    "firstName" : "Alessio",
+    "lastName" : "Ricci",
+    "profileImgPath" : "https://miro.medium.com/fit/c/262/262/0*H3pvOMkgG_1Sce03",
+    "socialmedia" : [ {
+      "media" : "twitter",
+      "name" : "15alessioricci"
+    }, {
+      "media" : "instagram",
+      "name" : "15alessioricci"
+    } ]
+  } ]
+}
+]

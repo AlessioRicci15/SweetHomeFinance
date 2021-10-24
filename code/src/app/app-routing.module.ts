@@ -15,7 +15,7 @@ import { SocialmediaComponent } from './dashboard/socialmedia/socialmedia.compon
 import { MoneydataComponent } from './moneydata/moneydata.component';
 
 const routes: Routes = [
-  { path: '', component: DashboardComponent, pathMatch: 'full' },
+  { path: '', pathMatch: 'full', redirectTo: '/dashboard/articles'},
   { path: 'dashboard', component: DashboardComponent, children: [
   { path: 'articles', component: ArticlesComponent, children: [
     { path: ':id', component: ArticleComponent, children: [

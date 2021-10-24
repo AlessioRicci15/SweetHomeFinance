@@ -14,6 +14,7 @@
     "@angular/common": "~12.0.5",
     "@angular/compiler": "~12.0.5",
     "@angular/core": "~12.2.3",
+    "@angular/fire": "^7.1.1",
     "@angular/forms": "~12.0.5",
     "@angular/platform-browser": "~12.0.5",
     "@angular/platform-browser-dynamic": "~12.0.5",
@@ -26,7 +27,9 @@
     "util": "^0.12.4",
     "webpack": "^5.51.1",
     "yahoo-finance": "^0.3.7",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "firebase": "^9.1.0",
+    "rxfire": "^6.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.0.5",
